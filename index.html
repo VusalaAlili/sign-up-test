@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        ::placeholder {
+        color: rgb(255, 255, 255);
+          opacity: 1; /* Firefox */
+        }
+        
+        ::-ms-input-placeholder { /* Edge 12-18 */
+        color: rgb(255, 255, 255);
+        }
+        </style>
+</head>
+<body>
+        <div class="sign-up">
+            <form action="action_page.php" method="post">
+
+                <h2 class="header">SIGN UP</h2>
+
+                <div class="input-group">
+                    <label for="uname"></label>
+                    <input type="user-sign" name="uname" placeholder="Username" class="text-sign" required >
+
+                    <label for="email"></label>
+                    <input type="e-mail" name="email" placeholder="E-Mail" class="text-sign" required>
+
+                    <label for="psw"></label>
+                    <input type="password-sign" name="psw" placeholder="Password" class="text-sign" required>
+
+                    <label for="psw"></label>
+                    <input type="confirm-password" name="psw" placeholder="Confirm Password" class="text-sign" required>
+
+                    <button class="account-creating"><h2 >CREAT ACCOUNT</h2></button>
+                    <label>
+
+                </div>
+
+            </form>
+        </div>
+</body>
+</html>

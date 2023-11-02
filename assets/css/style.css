@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+/* Bordered-form */
+form {
+    border: 1px;
+    box-sizing: border-box;
+}
+
+/* border-sign-up */
+.sign-up{
+    width: 624px;
+    height: 1020px;
+    border-radius: 116px;
+    background: #3774B6;
+    margin: 5% auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* header */
+.header{
+padding-top: 0;
+font-size: 85px;
+font-weight: 200;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #F5F5F5;
+}
+
+/* other-inputs */
+input[type=user-sign], input[type=e-mail], input[type=password-sign], input[type=confirm-password] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 581px;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #F5F5F5;
+    margin: 19px;
+    padding: 45px;
+    
+}
+
+/* account-creating */
+.account-creating{
+    top: 253px;
+    border-radius: 45px;
+    background: #F5F5F5;;
+    margin: 100px 20px;
+    border: none;
+    color: #3774B6;
+    cursor: pointer;
+    width: 581px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sign{
+    font-size: 34px;
+    color: #F5F5F5;
+}
+
